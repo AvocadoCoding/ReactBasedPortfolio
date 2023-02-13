@@ -1,0 +1,13 @@
+.headshotIMG {
+    width: auto;
+    height:200px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: grey;
+}
+
+/* About me and skills section*/
+.list{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}

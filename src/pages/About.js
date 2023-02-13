@@ -4,13 +4,16 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 import backgroundImage from "../Images/Aurora.jpg";
+import headshot from "../Images/HeadshotPicture.jpg";
+import "./aboutStyle.css";
 import API from "../utils/API";
 
 function About() {
   return (
     <div>
       <Hero backgroundImage={backgroundImage}>
-        <h1>Welcome to my Coding Portfolio!</h1>
+        <h1 className="heroHeader">Welcome to my Coding Portfolio!</h1>
+        <img className="headshotIMG" src={headshot} alt="Headshot picture of Christopher Gardner"></img>
         <h2>Front-end Web Development</h2>
       </Hero>
       <Container style={{ marginTop: 30 }}>
@@ -26,7 +29,7 @@ function About() {
             particularly on front end web development. I aim to make great looking and functioning 
             products with efficient code.
             </p>
-            <p>
+            {/* <p>
               Phasellus at rutrum nisl. Praesent sed massa ut ipsum bibendum porttitor. Sed
               malesuada molestie velit ac viverra. Quisque a ullamcorper purus. Curabitur luctus mi
               ac mi hendrerit semper. Nulla tincidunt accumsan lobortis. Mauris convallis sapien non
@@ -47,8 +50,31 @@ function About() {
               eros. Nullam tempor sem rhoncus porta semper. Proin bibendum vulputate nisl, fringilla
               interdum elit pulvinar eu. Quisque vitae quam dapibus, vestibulum mauris quis, laoreet
               massa.
-            </p>
+            </p> */}
           </Col>
+        </Row>
+        <Row>
+          <Col size="md-12">
+            <h1>Technical Skills</h1>
+          </Col>
+        </Row>
+        <Row>
+        <Col size="lg-6 md-6 sm-6">
+                    <ul className="list">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Javascript</li>
+                        <li>Bootstrap5</li>
+                    </ul>
+        </Col>
+                <Col size="lg-6 md-6 sm-6">
+                    <ul className="list">
+                        <li>jQuery</li>
+                        <li>Node</li>
+                        <li>React</li>
+                        <li>Agile working</li>
+                    </ul>
+                </Col>
         </Row>
       </Container>
     </div>
