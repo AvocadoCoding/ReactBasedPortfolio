@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+// import NavDropdown from 'react-bootstrap/NavDropdown';
 import './style.css';
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
@@ -14,11 +14,11 @@ function  NavbarBootstrap() {
         <Navbar.Brand as={Link} to="/">Christopher Gardner</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav>
             <Nav.Link as={NavLink} to="/">About</Nav.Link>
             <Nav.Link as={NavLink} to="/portfolio">Portfolio</Nav.Link>
             <Nav.Link as={NavLink} to="/search">Search</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+            {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
@@ -28,7 +28,7 @@ function  NavbarBootstrap() {
               <NavDropdown.Item href="#action/3.4">
                 Separated link
               </NavDropdown.Item>
-            </NavDropdown>
+            </NavDropdown> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
