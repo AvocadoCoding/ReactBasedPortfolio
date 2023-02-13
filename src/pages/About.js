@@ -3,11 +3,13 @@ import Hero from "../components/Hero";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
+import backgroundImage from "../Images/Aurora.jpg";
+import API from "../utils/API";
 
 function About() {
   return (
     <div>
-      <Hero backgroundImage="../Images/Aurora.jpg">
+      <Hero backgroundImage={backgroundImage}>
         <h1>Welcome to my Coding Portfolio!</h1>
         <h2>Front-end Web Development</h2>
       </Hero>
