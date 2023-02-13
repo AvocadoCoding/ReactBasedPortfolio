@@ -17,7 +17,7 @@ function  NavbarBootstrap() {
           <Nav>
             <Nav.Link as={NavLink} to="/">About</Nav.Link>
             <Nav.Link as={NavLink} to="/portfolio">Portfolio</Nav.Link>
-            <Nav.Link as={NavLink} to="/search">Search</Nav.Link>
+            <Nav.Link as={NavLink} to="/contact">Contact</Nav.Link>
             {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
@@ -34,47 +34,6 @@ function  NavbarBootstrap() {
       </Container>
     </Navbar>
   
-
-  //   <nav className="navbar navbar-expand-lg navbar-light bg-light">
-  //     <Link className="navbar-brand" to="/">
-  //       Pupster
-  //     </Link>
-  //     <div>
-  //       <ul className="navbar-nav">
-  //         <li className="nav-item">
-  //           <NavLink
-  //             to="/"
-  //             end
-  //             className={({ isActive }) =>
-  //               isActive ? 'nav-link active' : 'nav-link'
-  //             }
-  //           >
-  //             About
-  //           </NavLink>
-  //         </li>
-  //         <li className="nav-item">
-  //           <NavLink
-  //             to="/discover"
-  //             className={({ isActive }) =>
-  //               isActive ? 'nav-link active' : 'nav-link'
-  //             }
-  //           >
-  //             Discover
-  //           </NavLink>
-  //         </li>
-  //         <li className="nav-item">
-  //           <NavLink
-  //             to="/search"
-  //             className={({ isActive }) =>
-  //               isActive ? 'nav-link active' : 'nav-link'
-  //             }
-  //           >
-  //             Search
-  //           </NavLink>
-  //         </li>
-  //       </ul>
-  //     </div>
-  //   </nav>
   );
 }
 

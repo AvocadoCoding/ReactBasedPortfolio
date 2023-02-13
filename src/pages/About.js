@@ -13,7 +13,7 @@ function About() {
     <div>
       <Hero backgroundImage={backgroundImage}>
         <h1 className="heroHeader">Welcome to my Coding Portfolio!</h1>
-        <img className="headshotIMG" src={headshot} alt="Headshot picture of Christopher Gardner"></img>
+        <img className="headshotIMG" src={headshot} alt="Headshot of Christopher Gardner"></img>
         <h2>Front-end Web Development</h2>
       </Hero>
       <Container style={{ marginTop: 30 }}>
