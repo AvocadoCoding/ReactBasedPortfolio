@@ -7,9 +7,9 @@ import Col from "../components/Col";
 function About() {
   return (
     <div>
-      <Hero backgroundImage="https://i.imgur.com/qkdpN.jpg">
-        <h1>Coding Portfolio</h1>
-        <h2>They're the Good Boys and Girls</h2>
+      <Hero backgroundImage="../Images/Aurora.jpg">
+        <h1>Welcome to my Coding Portfolio!</h1>
+        <h2></h2>
       </Hero>
       <Container style={{ marginTop: 30 }}>
         <Row>
